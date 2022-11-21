@@ -1,0 +1,311 @@
+@media (width < 1920px) {
+  /*Timetable Starts*/
+  .timetable-page .inner-container .week-container .monday {
+    width: 499.5px;
+  }
+  
+  .timetable-page .inner-container .week-container .tuesday {
+    width: 499.5px;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 1445px) {
+  /*Timetable Starts*/
+  .timetable-page .inner-container .week-container .monday {
+    width: 20.813rem;
+  }
+  
+  .timetable-page .inner-container .week-container .tuesday {
+    width: 20.813rem;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 1150px) {
+  /*Nav Starts*/
+  .nav-links{
+    font-size: 0.875rem;
+    width: 40rem;
+  }
+
+  .class-links {
+    top: 2.4rem;
+  }
+  /*Nav Ends*/
+}
+
+@media (width < 1100px) {
+  /*Timetable Starts*/
+  .timetable-page .inner-container .legal-information {
+    width: 90%;
+    margin: 3.688rem auto;
+    font-size: 0.75rem;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 1000px) {
+  /*Nav Starts*/
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 3.5rem; left: 0;
+    margin: 0;
+    background-color: var(--dark-navbar-bgcolor);
+    flex-direction: column;
+    font-size: 0.75rem;
+    width: 12rem;
+    box-shadow: -15px 0px 32px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -15px 0px 32px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px 0px 32px -9px rgba(0,0,0,0.75);
+    transform: translateX(-300%);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  .nav-links li {
+    display: flex;
+    padding: 0.75rem;
+    border-left: 3px solid transparent;
+  }
+
+  .nav-links > li:hover {
+    background-color: var(--dark-navbarHover-bgcolor);
+    border-left: 3px solid var(--primary-color);
+  }
+
+  .nav-links .classes-active {
+      background-color: var(--dark-navbarHover-bgcolor);
+      border-left: 3px solid var(--lighter-color);
+  }
+
+  .nav-links li img{
+    display: block;
+  }
+
+  .nav-links li a{
+    margin-top: 0.2rem;
+    padding: 0;
+    border: none;
+  }
+
+  .nav-links li a:hover{
+    border: none;
+  }
+
+  .nav-links .classes .main-hover-active {
+    border: none;
+  }
+
+  .class-links {
+    flex-direction: column;
+    top: 0; left: 11.8rem;
+    margin: 0;
+    width: 16rem;
+    background-color: var(--dark-navbarHover-bgcolor);
+    transform: translateY(0);
+    transform: translateX(-10px);
+  }
+
+  .class-links-active {
+    transform: translateX(0);
+  }
+
+  .class-links li {
+    justify-content: left;
+    border: none;
+    border-left: 3px solid transparent;
+  }
+
+  .class-links li:hover{
+    border: none;
+    border-left: 3px solid var(--primary-color);
+  }
+
+  .class-links li img{
+    margin: 0 1.35rem 0 0.6rem;
+  }
+
+  .class-links li:first-child a {
+    padding-left: 0;
+  }
+  
+  .class-links li:last-child a {
+    padding-right: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+  /*Nav Ends*/
+}
+
+@media (width < 968px) {
+  /*Timetable Starts*/
+  .timetable-page {
+    padding: 0.2rem 10%;
+  }
+
+  .timetable-page .inner-container {
+    margin-bottom: 5.38rem;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 850px) {
+  /*Timetable Starts*/
+  h2 {
+    margin-top: 3.75rem;
+    font-size: 1.125rem;
+  }
+
+  .timetable-page .inner-container .week-container .day {
+    width: 10.688rem;
+    height: 10.688rem;
+    padding: 0.625rem 1.125rem;
+    font-size: 0.75rem;
+  }
+
+  .timetable-page .inner-container .week-container .monday {
+    width: 256.5px;
+  }
+  
+  .timetable-page .inner-container .week-container .tuesday {
+    width: 256.5px;
+  }
+
+  .timetable-page .inner-container .week-container .wednesday {
+    width: 21.375rem;
+    height: 10.688rem;
+  }
+
+  .timetable-page .inner-container .week-container .day:hover .excersize {
+    margin-bottom: 0.625rem;
+  }
+  
+  .timetable-page .inner-container .week-container .day:hover h2 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .timetable-page .inner-container .week-container .day .excersize .excersize-name{
+    font-size: 0.875rem;
+  }
+  
+  .timetable-page .inner-container .week-container .day .excersize .excersize-info sup {
+    font-size: 0.5rem;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 675px) {
+  /*Timetable Starts*/
+  .timetable-page .inner-container .headline h1{
+    font-size: 1.875rem;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 659px) {
+  /*Timetable Starts*/
+  .timetable-page .inner-container {
+    margin-bottom: 0;
+  }
+
+  .timetable-page .inner-container .week-container .monday {
+    width: 10.688rem;
+  }
+  
+  .timetable-page .inner-container .week-container .tuesday {
+    width: 10.688rem;
+  }
+
+  .timetable-page .inner-container .legal-information {
+    width: 100%;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 480px) {
+  /*Nav Starts*/
+  .nav-links {
+    width: 6.5rem;
+  }
+
+  .nav-links li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-links li img{
+    margin: 0 0.6rem;
+  }
+
+  .nav-links li a{
+    margin: 0.5rem 0.6rem 0 0.6rem;
+  }
+
+  .class-links {
+    flex-direction: column;
+    top: 0; left: 6.3rem;
+    width: 11rem;
+  }
+
+  .class-links li a  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Nav Ends*/
+
+}
+
+@media (width < 445px) {
+  /*Timetable Starts*/
+  .timetable-page .inner-container .week-container .wednesday {
+    width: 10.688rem;
+    height: 16.032rem;
+    background-position: 20%;
+  }
+
+  .timetable-page .inner-container .week-container .wednesday h2 {
+    margin-top: 104.756px;
+  }
+
+  .timetable-page .inner-container .week-container .wednesday .excersize-container {
+    display: block
+  }
+  
+  .timetable-page .inner-container .week-container .wednesday .excersize-container .excersize {
+    width: 100%;
+  }
+
+  .timetable-page .inner-container .week-container .wednesday .excersize {
+    transform: translateY(420%);
+    transition: all 0.3s ease;
+  }
+
+  .timetable-page .inner-container .legal-information {
+    font-size: 0.625rem;
+  }
+  /*Timetable Ends*/
+}
+
+@media (width < 375px) {
+  /*Nav Starts*/
+  .logo {
+    margin-left: 10%;
+  }
+  /*Nav Ends*/
+}

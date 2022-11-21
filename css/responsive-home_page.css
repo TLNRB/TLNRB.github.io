@@ -1,0 +1,936 @@
+@media (width < 1905px) {
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .testimonials .story-container:nth-child(4) {
+    display: none;
+  }
+  /*Testimonials Page Ends*/
+}
+
+@media (width < 1640px) {
+  /*Story-Classes Page Starts*/
+  .story-classes-page {
+    padding: 0.2rem 10%;
+  }
+
+  .story-classes-page .story-container {
+    gap: 12rem;
+  }
+
+  .story-classes-page .class-container {
+    display: none;
+  }
+  
+  .story-classes-page .slider {
+    display: block;
+  }
+  /*Story-Classes Page Ends*/
+
+  /*Coaches Page Starts*/
+  .coaches-page {
+    gap: 10%;
+  }
+  /*Coaches Page Ends*/
+
+  /*Contact Page Starts*/
+  .contact-page .inner-container .box .map iframe {
+    width: 550px;
+  }
+  /*Contact Page Ends*/
+}
+
+@media (width < 1560px) {
+  /*Membership Page Starts*/
+  .membership-page .inner-container .plans-container .plan-box {
+    margin-bottom: 0;
+  }
+
+  .membership-page .inner-container .plans-container .platinum {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+  }
+  /*Membership Page Ends*/
+}
+
+@media (width < 1520px) {
+  /*Coaches Page Starts*/
+  .coaches-page {
+    padding: 0.2rem 15%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .coaches-page .inner-container .coach-container {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box{
+    width: 100%;
+  }
+
+  .coaches-page .inner-container:first-child .coach-container:last-child{
+    margin-top: 2.5rem;
+    margin-bottom: 3.688rem;
+  }
+  /*Coaches Page Ends*/
+
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .call-to-action {
+    width: 75%;
+  }
+  /*Testimonials Page Ends*/
+}
+
+@media (width < 1450px) {
+  /*Story-Classes Page Starts*/
+  .story-classes-page .story-container {
+    gap: 10rem;
+  }
+  /*Story-Classes Page Ends*/
+
+  /*Contact Page Starts*/
+  .contact-page .inner-container .box .map iframe {
+    width: 470px;
+  }
+  /*Contact Page Ends*/
+}
+
+@media (width < 1417px) {
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .testimonials .story-container:nth-child(4) {
+    display: inline;
+  }
+  /*Testimonials Page Ends*/
+}
+
+@media (width < 1320px) {
+  /*Contact Page Starts*/
+  .contact-page .inner-container .box .map iframe {
+    display: none;
+  }
+
+  .contact-page .inner-container .box .contact-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Contact Page Ends*/
+}
+
+@media (width < 1291px) {
+  /*Story-Classes Page Starts*/
+  .story-classes-page .story-container {
+    font-size: 1rem;
+  }
+
+  .story-classes-page .slider .slides div h2 {
+    font-size: 1rem;
+  }
+  /*Story-Classes Page Ends*/
+
+}
+
+@media (width < 1150px) {
+  /*Nav Starts*/
+  .nav-links{
+    font-size: 0.875rem;
+    width: 40rem;
+  }
+
+  .class-links {
+    top: 2.4rem;
+  }
+  /*Nav Ends*/
+}
+
+@media (width < 1100px) {
+  /*Coaches Page Starts*/
+  .coaches-page {
+    padding: 0.2rem 10%;
+  }
+  /*Coaches Page Ends*/
+}
+
+@media (width < 1050px) {
+  /*Front Page Starts*/
+  .front-page .inner-container {
+    left: 15%; top: 18rem; right: 15%;
+    text-align: center;
+  }
+
+  .front-page .inner-container h1 {
+    width: auto;
+  }
+  
+  .front-page .inner-container p {
+    width: auto;
+  }
+  /*Front Page Ends*/
+
+  /*Story-Classes Page Starts*/
+  .story-classes-page .story-container {
+    display: block;
+    gap: 0;
+    margin-top: 3.688rem;
+  }
+
+  .story-classes-page .slider {
+    margin-top: 3.688rem;
+    width: 100%;
+  }
+
+  .story-classes-page .headline {
+    margin-top: 4.688rem;
+  }
+
+  .story-classes-page .story-container {
+    font-size: 1.25rem;
+  }
+
+  .story-classes-page .story-container > div{
+    width: 100%;
+  }
+
+  #story-one {
+    display: none;
+  }
+
+  #story-hidden {
+    display: block;
+  }
+
+  #story-two {
+    margin-top: 2rem;
+  }
+  /*Story-Classes Page Ends*/
+
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .call-to-action {
+    width: 100%;
+  }
+  /*Testimonials Page Ends*/
+}
+
+@media (width < 1024px) {
+  /*Membership Page Starts*/
+  .membership-page {
+    padding: 0.2rem 10%;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box {
+    width: 75%;
+    height: 12.75rem;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .more-info {
+    visibility: hidden;
+    animation: slide-out 0.3s ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .btn-more {
+    display: inline;
+  }
+
+  /* Hover */
+  .membership-page .inner-container .plans-container .plan-box:hover {
+    height: auto;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box:hover .btn-more{
+    display: none;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box:hover .more-info {
+    visibility: visible;
+    animation: slide-in 0.3s ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  .membership-page .inner-container .plans-container .basic {
+    margin-top: 5.688rem;
+  }
+
+  .membership-page .inner-container .plans-container .gold {
+    margin-top: 0;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box p {
+    width: 60%;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .price {
+    margin: 1rem auto;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .plan {
+    margin: 0 0 1.5rem 0;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .asset-usage {
+    padding-bottom: 1.75rem;
+  }
+  /*Membership Page Ends*/
+
+  /*Coaches Page Starts*/
+  .contact-page .inner-container .legal-information {
+    width: 100%
+  }
+  /*Coaches Page Ends*/
+}
+
+@media (width < 1000px) {
+  /*Nav Starts*/
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 3.5rem; left: 0;
+    margin: 0;
+    background-color: var(--dark-navbar-bgcolor);
+    flex-direction: column;
+    font-size: 0.75rem;
+    width: 12rem;
+    box-shadow: -15px 0px 32px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -15px 0px 32px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px 0px 32px -9px rgba(0,0,0,0.75);
+    transform: translateX(-300%);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  .nav-links li {
+    display: flex;
+    padding: 0.75rem;
+    border-left: 3px solid transparent;
+  }
+
+  .nav-links > li:hover {
+    background-color: var(--dark-navbarHover-bgcolor);
+    border-left: 3px solid var(--primary-color);
+  }
+
+  .nav-links .classes-active {
+      background-color: var(--dark-navbarHover-bgcolor);
+      border-left: 3px solid var(--lighter-color);
+  }
+
+  .nav-links li img{
+    display: block;
+  }
+
+  .nav-links li a{
+    margin-top: 0.2rem;
+    padding: 0;
+    border: none;
+  }
+
+  .nav-links li a:hover{
+    border: none;
+  }
+
+  .nav-links .classes .main-hover-active {
+    border: none;
+  }
+
+  .class-links {
+    flex-direction: column;
+    top: 0; left: 11.8rem;
+    margin: 0;
+    width: 16rem;
+    background-color: var(--dark-navbarHover-bgcolor);
+    transform: translateY(0);
+    transform: translateX(-10px);
+  }
+
+  .class-links-active {
+    transform: translateX(0);
+  }
+
+  .class-links li {
+    justify-content: left;
+    border: none;
+    border-left: 3px solid transparent;
+  }
+
+  .class-links li:hover{
+    border: none;
+    border-left: 3px solid var(--primary-color);
+  }
+
+  .class-links li img{
+    margin: 0 1.35rem 0 0.6rem;
+  }
+
+  .class-links li:first-child a {
+    padding-left: 0;
+  }
+  
+  .class-links li:last-child a {
+    padding-right: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+  /*Nav Ends*/
+}
+
+@media (width < 950px) {
+  /*Front Page Starts*/
+  .front-page {
+    background-image: url('../images/backgrounds/mobile-firstPage.jpg');
+    background-position: center;
+  }
+  /*Front Page Ends*/
+
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .coach-container {
+    width: 100%;
+  }
+  /*Coaches Page Ends*/
+
+  /*Testimonials Page Starts*/
+  .clients-page {
+    padding: 0.2rem 10%;
+  }
+  /*Testimonials Page Ends*/
+}
+
+@media (width < 850px) {
+  /*Front Page Starts*/
+  .front-page .inner-container {
+    left: 10%; top: 18rem; right: 10%;
+  }
+
+  .front-page .inner-container h1 {
+    font-size: 3.5rem;
+    line-height: 55px;
+    letter-spacing: 3px;
+  }
+  
+  .front-page .inner-container p {
+    font-size: 1.125rem;
+  }
+
+  .front-page .inner-container .btn {
+    font-size: 1rem;
+  }
+  /*Front Page Ends*/
+
+  /*Story-Classes Page Starts*/
+  .story-classes-page .story-container {
+    margin-top: 2.688rem;
+  }
+  
+  #story-two {
+    margin-top: 1.5rem;
+  }
+
+  .story-classes-page .slider {
+    margin-top: 2.688rem;
+  }
+
+  .story-classes-page .desktop-version .headline {
+    margin-top: 3.688rem;
+  }
+
+  .manual-btn:not(:last-child) {
+    margin-right: 35px;
+  }
+  
+  .navigation-auto div:not(:last-child) {
+    margin-right: 35px;
+  }
+  /*Story-Classes Page Ends*/
+
+  /*Contact Page Starts*/
+  .contact-page {
+    padding: 0.2rem 10%;
+  }
+  /*Contact Page Ends*/
+}
+
+@media (width < 817px) {
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .testimonials .story-container {
+    width: 75%;
+    margin-top: 4.125rem;
+  }
+
+  .clients-page .inner-container .headline{
+    margin-bottom: 0;
+  }
+
+  .clients-page .inner-container .call-to-action {
+    font-size: 1.125rem;
+  }
+
+  .clients-page .inner-container .btn {
+    font-size: 1rem;
+  }
+
+  .clients-page .inner-container .testimonials .story-container:nth-child(2) {
+    margin-top: 2.5rem;
+  }
+
+  .clients-page .inner-container .testimonials .story-container:nth-child(3) {
+    margin-top: 2.5rem;
+  }
+
+  .clients-page .inner-container .testimonials .story-container:nth-child(4) {
+    margin-top: 2.5rem;
+  }
+
+  .clients-page .inner-container .testimonials .story-container > img {
+    width: 100%;
+    border: 1px solid var(--headline-line);
+  }
+
+  .clients-page .inner-container .testimonials .story-container  .story-info-box .client-name {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  
+  .clients-page .inner-container .testimonials .story-container  .story-info-box .client-status {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .clients-page .inner-container .testimonials .story-container  .story-info-box hr {
+    margin: 0 auto;
+  }
+  
+  .clients-page .inner-container .testimonials .story-container  .story-info-box .client-description {
+    color: var(--darker-color);
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .clients-page .inner-container .btn-more {
+    margin: 2.688rem auto 4.688rem auto;
+    font-size: 1rem;
+  }
+  /*Testimonials Page Ends*/
+
+  /*Membership Page Starts*/
+  .membership-page .inner-container .plans-container .plan-box {
+    font-size: 0.813rem;
+    height: 11.75rem;
+  }
+  
+  .membership-page .inner-container .plans-container .plan-box .price span {
+    font-size: 1.5rem;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .plan {
+    font-size: 1.125rem;
+  }
+
+  .membership-page .inner-container .plans-container .plan-box .btn {
+    font-size: 0.75rem;
+  }
+  /*Membership Page Ends*/
+}
+
+@media (width < 705px) {
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .coach-container img{
+    width: 50%;
+  }
+  
+  .coaches-page .inner-container .coach-container .coach-info-box{
+    width: 50%;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-name{
+    margin: 1rem 0 0 1rem;
+    font-size: 1.125rem;
+    text-align: left;
+  }
+  
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-job{
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-contact-info .coach-contact{ 
+    justify-content: left;
+    margin-left: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-contact-info .coach-contact p{ 
+    margin: auto 0;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-description{
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  /*Coaches Page Ends*/
+}
+
+@media (width < 675px) {
+  /*Front Page Starts*/
+  .front-page .inner-container {
+    left: 2.625rem; top: 18rem; right: 2.625rem;
+  }
+
+  .front-page .inner-container h1 {
+    font-size: 3rem;
+    line-height: 50px;
+    letter-spacing: 2.5px;
+  }
+  /*Front Page Ends*/
+
+  /*Story-Classes Page Starts*/
+  .story-classes-page .inner-container .headline h1{
+    font-size: 1.875rem;
+  }
+
+  .story-classes-page .story-container {
+    font-size: 1rem;
+  }
+  /*Story-Classes Page Ends*/
+
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .headline h1{
+    font-size: 1.875rem;
+  }
+  /*Coaches Page Ends*/
+
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .headline h1{
+    font-size: 1.875rem;
+  }
+
+  .clients-page .inner-container .testimonials .story-container {
+    width: 100%;
+    margin-top: 4.125rem;
+  }
+
+  .clients-page .inner-container .testimonials .story-container:nth-child(2) {
+    margin-top: 2.5rem;
+  }
+
+  .clients-page .inner-container .headline h1{
+    font-size: 1.875rem;
+  }
+  /*Testimonials Page Ends*/
+
+  /*Membership Page Starts*/
+  .membership-page .inner-container .headline h1 {
+    font-size: 1.875rem;
+  }
+  /*Membership Page Ends*/
+
+  /*Contact Page Starts*/
+  .contact-page .inner-container .headline {
+    margin-bottom: 2.688rem;
+  }
+
+  .contact-page .inner-container .headline h1 {
+    font-size: 1.875rem;
+  }
+
+  .contact-page .inner-container .box .contact-container .contact-box {
+    margin-bottom: 2.25rem;
+  }
+
+  .contact-page .inner-container .box .contact-container .contact-box img {
+    height: 1.75rem;
+  }
+
+  .contact-page .inner-container .box .contact-container .contact-box:nth-child(1) img {
+    margin-left: -0.3rem;
+  }
+  
+  .contact-page .inner-container .box .contact-container .contact-box:nth-child(2) img {
+    margin-left: -0.25rem;
+  }
+
+  .contact-page .inner-container .box .contact-container .contact-box .contact-header {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+  }
+  
+  .contact-page .inner-container .box .contact-container .contact-box .contact-info {
+    margin-bottom: 0.125rem;
+    font-size: 0.875rem;
+  }
+
+  .contact-page .inner-container .btn {
+    margin-top: 1rem;
+    margin-bottom: 2.875rem;
+    font-size: 1rem;
+  }
+
+  .contact-page .inner-container .legal-information {
+    font-size: 0.75rem;
+  }
+  /*Contact Page Ends*/
+}
+
+@media (width < 600px) {
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .headline{
+    margin-bottom: 2.688rem;
+  }
+
+  .coaches-page .inner-container:first-child .coach-container:last-child{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .coaches-page .inner-container .coach-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: var(--dark-bgcolor);
+  }
+
+  .coaches-page .inner-container .coach-container > img{
+    width: 75%;
+    border-right: 1px solid var(--headline-line);
+  }
+  
+  .coaches-page .inner-container .coach-container .coach-info-box{
+    width: 100%;
+    border: none;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-name{
+    margin: auto;
+    position: absolute;
+    top: 25%; left: 87.5%;
+    font-size: 1.75rem;
+    writing-mode: vertical-lr;
+  }
+  
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-job{
+    margin: auto;
+    position: absolute;
+    font-size: 1.5rem;
+    top: 22.5%; left: 80%;
+    font-size: 1.5rem;
+    writing-mode: vertical-lr;
+  }
+
+  .coaches-page .inner-container .coach-two .coach-info-box .coach-job {
+    top: 35%; left: 80%;
+  }
+
+
+  .coaches-page .inner-container .coach-four .coach-info-box .coach-job {
+    top: 32.5%; left: 80%;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-contact-info .coach-contact{ 
+    justify-content: center;
+    margin-left: 0;
+    font-size: 0.875rem;
+  }
+  /*Coaches Page Ends*/
+
+  /*Membership Page Starts*/
+  .membership-page .inner-container .plans-container .plan-box {
+    width: 100%;
+    height: 11.25rem;
+  }
+
+  .membership-page .inner-container .plans-container .basic {
+    margin-top: 3.688rem;
+  }
+  /*Membership Page Ends*/
+}
+
+@media (width < 550px) {
+  /*Front Page Starts*/
+  .front-page .inner-container h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .front-page .inner-container p {
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+  }
+  /*Front Page Ends*/
+
+  /*Story-Classes Page Starts*/
+  .story-classes-page {
+    padding: 0.2rem 2.625rem;
+  }
+  /*Story-Classes Page Ends*/
+  
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-name{
+    font-size: 1.5rem;
+  }
+  
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-job {
+    font-size: 1.25rem;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-contact-info .coach-contact{ 
+    font-size: 0.75rem;
+  }
+  /*Coaches Page Ends*/
+  
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .call-to-action {
+    font-size: 1rem;
+  }
+  /*Testimonials Page Ends*/
+}
+
+@media (width < 480px) {
+  /*Nav Starts*/
+  .nav-links {
+    width: 6.5rem;
+  }
+
+  .nav-links li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-links li img{
+    margin: 0 0.6rem;
+  }
+
+  .nav-links li a{
+    margin: 0.5rem 0.6rem 0 0.6rem;
+  }
+
+  .class-links {
+    flex-direction: column;
+    top: 0; left: 6.3rem;
+    width: 11rem;
+  }
+
+  .class-links li a  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Nav Ends*/
+
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-name{
+    top: 20%; left: 86%;
+  }
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-job{
+    top: 18.5%; left: 78%;
+  }
+
+  .coaches-page .inner-container .coach-two .coach-info-box .coach-name{
+    top: 17.5%; left: 86%;
+  }
+
+  .coaches-page .inner-container .coach-two .coach-info-box .coach-job {
+    top: 29%; left: 78%;
+  }
+
+  .coaches-page .inner-container .coach-four .coach-info-box .coach-name{
+    top: 17.5%; left: 86%;
+  }
+
+  .coaches-page .inner-container .coach-four .coach-info-box .coach-job {
+    top: 25%; left: 78%;
+  }
+
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-contact-info .coach-contact img{
+    width: 1.25rem;
+  }
+  /*Coaches Page Ends*/
+}
+
+@media (width < 375px) {
+  /*Nav Starts*/
+  .logo {
+    margin-left: 10%;
+  }
+  /*Nav Ends*/
+
+  /*Front Page Starts*/
+  .front-page .inner-container h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .front-page .inner-container p {
+    margin-bottom: 2.5rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 1rem auto;
+  }
+  /*Front Page Ends*/
+
+  /*Coaches Page Starts*/
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-name{
+    top: 16%; left: 86%;
+    font-size: 1.25rem;
+  }
+  .coaches-page .inner-container .coach-container .coach-info-box .coach-job{
+    top: 14%; left: 78%;
+    font-size: 1rem;
+  }
+
+  .coaches-page .inner-container .coach-two .coach-info-box .coach-name{
+    top: 12.5%; left: 86%;
+  }
+
+  .coaches-page .inner-container .coach-two .coach-info-box .coach-job {
+    top: 22.5%; left: 78%;
+  }
+
+  .coaches-page .inner-container .coach-four .coach-info-box .coach-name{
+    top: 10%; left: 86%;
+  }
+
+  .coaches-page .inner-container .coach-four .coach-info-box .coach-job {
+    top: 18%; left: 78%;
+  }
+  /*Coaches Page Ends*/
+  
+  /*Contact Page Starts*/
+  .contact-page .inner-container .box .contact-container .contact-box .contact-header {
+    font-size: 1.125rem;
+  }
+  
+  .contact-page .inner-container .box .contact-container .contact-box .contact-info {
+    font-size: 0.75rem;
+  }
+
+  .contact-page .inner-container .btn {
+    margin: 1rem auto;
+  }
+
+  .contact-page .inner-container .legal-information {
+    margin-top: 3rem;
+    font-size: 0.625rem;
+  }
+  /*Contact Page Ends*/
+
+  /*Testimonials Page Starts*/
+  .clients-page .inner-container .btn-classes {
+    margin-bottom: 0;
+  }
+  /*Testimonials Page Ends*/
+}
