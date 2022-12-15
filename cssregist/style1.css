@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Rye&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/bbqqqq.png");
+  background-attachment: fixed;
+  background-size: cover;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
+}
+body .logot {
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .logot img {
+  height: 175px;
+}
+body p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  color: grey;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+body .language-selector {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+body .language-selector i {
+  cursor: pointer;
+  font-size: 40px;
+  color: white;
+}
+body .language-selector .lang-flag {
+  position: absolute;
+  right: -35%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: transform 0.2s ease-out, opacity 0.2s 0.1s ease-out;
+}
+body .language-selector .lang-flag a {
+  font-size: 0;
+}
+body .language-selector .lang-flag a img {
+  width: 30px;
+  box-shadow: 0px 0px 33px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 33px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 33px -3px rgba(0, 0, 0, 0.75);
+  font-size: 0.75rem;
+}
+body .language-selector .lang-flag-active {
+  transform: translateY(0.5rem);
+  opacity: 1;
+}
+body .downtext {
+  color: #F9F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  text-shadow: 3px 2px rgba(159, 158, 158, 0.388);
+  font-family: "Rye", cursive;
+}
+body .downtext h1 {
+  margin-top: 30px;
+}
+body .downtext h2 {
+  margin-top: 5px;
+}
+body form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+body form #langBtn {
+  background-color: #bc542f;
+  color: white;
+  border: 0;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+body form #langBtn:hover {
+  background-color: #e86c3f;
+  transition: 0.2s;
+}
+@media screen and (width < 1075px) {
+  body {
+    background-position: center;
+  }
+  body .logot {
+    margin-top: 200px;
+  }
+  body .logot img {
+    height: 140px;
+  }
+  body .downtext {
+    color: #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    text-shadow: 2px 2px rgba(159, 158, 158, 0.388);
+  }
+  body .downtext h1 {
+    margin-top: 20px;
+  }
+  body .downtext h2 {
+    width: 350px;
+    text-align: center;
+  }
+  body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  body form #langBtn {
+    background-color: #BC542F;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 180px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  body form #langBtn:hover {
+    background-color: #e86c3f;
+    transition: 0.2s;
+  }
+  body .language-selector {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+}
+@media screen and (width < 800px) {
+  body .language-selector i {
+    cursor: pointer;
+    font-size: 32px;
+  }
+}
+@media screen and (width < 370px) {
+  body .logot img {
+    height: 120px;
+  }
+  body .downtext h1 {
+    font-size: 26px;
+  }
+  body .downtext h2 {
+    font-size: 18px;
+  }
+  body form #langBtn {
+    padding: 8px;
+    width: 170px;
+  }
+}/*# sourceMappingURL=style1.css.map */
